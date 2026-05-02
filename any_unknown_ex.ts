@@ -1,9 +1,9 @@
 // Any 타입은 어느 자료형이든 사용 가능하지만 값에 대한 타입을 도저히 파악할수 없는 경우를 제외하곤 사용하지 않는 것을 권장.
-let a: any = "Hello";
-let b: any = "World!";
-let c = typeof a + b;
+// let a: any = "Hello";
+// let b: any = "World!";
+// let c = typeof a + b;
 
-console.log(c);
+// console.log(c);
 
 // unknown 타입 사용 시 타입을 좁혀서 사용해야 에러가 발생하지 않는다.
 // 오류발생
